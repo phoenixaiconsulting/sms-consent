@@ -16,25 +16,40 @@
     .section ul { padding-left: 20px; margin-top: 8px; }
     .section li { margin-bottom: 6px; }
     .highlight { background: #f0f0ee; padding: 12px 16px; border-radius: 6px; margin-top: 12px; font-size: 0.85rem; color: #555; }
+    .consent-box { background: #fff; border: 2px solid #1a1a1a; border-radius: 8px; padding: 24px; margin-bottom: 16px; }
+    .consent-box h2 { font-size: 1.1rem; font-weight: 700; margin-bottom: 16px; }
+    .number-display { font-size: 1.3rem; font-weight: 700; color: #1a1a1a; text-align: center; padding: 16px; background: #f0f0ee; border-radius: 6px; margin: 12px 0; letter-spacing: 1px; }
     .footer { text-align: center; margin-top: 32px; font-size: 0.8rem; color: #999; }
+    .footer a { color: #666; }
+    .keyword { font-family: monospace; background: #f0f0ee; padding: 2px 6px; border-radius: 3px; font-weight: 600; }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>SMS Consent &amp; Disclosure</h1>
+    <h1>SMS Consent &amp; Opt-In</h1>
     <p class="subtitle">Phoenix AI Consulting — Automated Receipt Confirmation Service</p>
+
+    <div class="consent-box">
+      <h2>Opt-In to Receipt Confirmation SMS</h2>
+      <p>To use the receipt submission service, text the keyword <span class="keyword">RECEIPTS</span> to the number below:</p>
+      <div class="number-display">+1 (855) 552-2331</div>
+      <p style="margin-top: 12px; font-size: 0.85rem; color: #666;">By texting this number, you consent to receive automated transactional text messages confirming your receipt submissions. Message frequency varies based on your submissions. Message and data rates may apply. Reply <strong>STOP</strong> to opt out at any time. Reply <strong>HELP</strong> for assistance.</p>
+    </div>
 
     <div class="section">
       <h2>What is this service?</h2>
-      <p>Phoenix AI Consulting operates an automated expense receipt processing system on behalf of its business clients. Authorized employees submit photos of receipts via text message (SMS/MMS) to a designated toll-free number. The system processes the receipt and sends a confirmation reply.</p>
+      <p>Phoenix AI Consulting operates an automated expense receipt processing system on behalf of its business clients. Authorized employees submit photos of receipts via text message (SMS/MMS) to the toll-free number above. The system processes the receipt and sends a confirmation reply with the extracted details (vendor, amount, date).</p>
     </div>
 
     <div class="section">
       <h2>How enrollment works</h2>
-      <p>Employees are enrolled by their employer as part of the company's expense reimbursement program. The employer provides a list of authorized employee phone numbers. Only messages from registered phone numbers are processed.</p>
-      <div class="highlight">
-        By texting a receipt photo to the designated number, you consent to receiving transactional reply messages confirming your submission.
-      </div>
+      <p>Employees are enrolled by their employer as part of the company's expense reimbursement program. The employer provides a list of authorized employee phone numbers to Phoenix AI Consulting. Only messages from registered phone numbers are processed.</p>
+      <p style="margin-top: 8px;">To opt in:</p>
+      <ul>
+        <li>Your employer registers your phone number with the service</li>
+        <li>You text <span class="keyword">RECEIPTS</span> to <strong>+1 (855) 552-2331</strong> to confirm your consent</li>
+        <li>You may then begin submitting receipt photos via text message</li>
+      </ul>
     </div>
 
     <div class="section">
@@ -45,31 +60,40 @@
         <li>Requests to resubmit if the image is unclear</li>
         <li>Notification if your phone number is not registered</li>
       </ul>
-      <p style="margin-top: 12px;">No marketing, promotional, or unsolicited messages are ever sent. Message frequency depends entirely on how often you submit receipts.</p>
+      <p style="margin-top: 12px;">No marketing, promotional, or unsolicited messages are ever sent. Message frequency depends entirely on how often you submit receipts. Typical usage is 1-10 messages per month.</p>
     </div>
 
     <div class="section">
       <h2>How to opt out</h2>
       <p>You can stop receiving messages at any time by:</p>
       <ul>
-        <li>Replying <strong>STOP</strong> to any message from this number</li>
+        <li>Replying <strong>STOP</strong> to any message from +1 (855) 552-2331</li>
         <li>Contacting your employer to be removed from the program</li>
         <li>Emailing <strong>support@phoenixaiconsulting.com</strong></li>
+      </ul>
+      <p style="margin-top: 8px;">After opting out, you will receive one final confirmation message. You can opt back in at any time by texting <span class="keyword">RECEIPTS</span> to the number above.</p>
+    </div>
+
+    <div class="section">
+      <h2>Help</h2>
+      <p>For assistance, reply <strong>HELP</strong> to any message from this number, or contact:</p>
+      <ul>
+        <li>Email: <strong>support@phoenixaiconsulting.com</strong></li>
+        <li>Phone: Contact your employer's HR or finance department</li>
       </ul>
     </div>
 
     <div class="section">
       <h2>Message &amp; data rates</h2>
-      <p>Standard message and data rates from your wireless carrier may apply. Phoenix AI Consulting does not charge for this service.</p>
-    </div>
-
-    <div class="section">
-      <h2>Privacy</h2>
-      <p>Phone numbers and receipt data are stored securely and used solely for expense reimbursement processing. Data is not shared with third parties beyond the employer who enrolled you. Receipt images and extracted data are retained only for the duration needed to complete the reimbursement cycle.</p>
+      <p>Standard message and data rates from your wireless carrier may apply. Phoenix AI Consulting does not charge for this service. Supported carriers include all major US carriers.</p>
     </div>
 
     <div class="footer">
       <p>&copy; 2026 Phoenix AI Consulting. All rights reserved.</p>
+      <p style="margin-top: 8px;">
+        <a href="privacy.html">Privacy Policy</a> &nbsp;|&nbsp;
+        <a href="terms.html">Terms and Conditions</a>
+      </p>
     </div>
   </div>
 </body>
